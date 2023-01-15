@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/png-clipart-dice-dice.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-container {
+    width: 30%;
+    text-align: center;
+}
+
+.score-container {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#new-game {
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+.player-container {
+    width: 200px;
+    height: 400px;
+    background-color: violet;
+    padding: 20px;
+    margin: 10px;
+    }
+
+#player1-roll-dice, #player1-hold {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: blueviolet;
+    border: 0;
+}
+
+#player2-roll-dice, #player2-hold {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: blueviolet;
+    border: 0;
+}
+
+.new-game-btn {
+    width: 100px;
+    height: 30px;
+    margin: 20px auto;
+    display: block;
+}
+
+#new-game {
+    margin-top: 20px;
+    width: 100%;
+}
+
+div.play {
+    width: 200px;
+    height: 200px;
+}
+
+#final-score {
+    width: 100px;
+    height: 30px;
+}
+
+#new-game {
+    width: 200px;
+    height: 30px;
+    background-color: blueviolet;
+    border: 0;
+}
+
+.play {
+    width: 50%;
+    margin: 0 auto;
+}
+
+div label {
+    background-color: crimson;
+    font-size: 18px;
+}
